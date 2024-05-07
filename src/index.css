@@ -1,0 +1,105 @@
+body{
+  margin: 0;
+  background-color: #f6f3f3f7;
+  display: flex;
+  place-items: center;
+}
+
+.header{
+  padding: 10px 10px;
+  margin: 5px 100px 50px 100px;
+}
+
+.footer{
+  padding: 10px 10px;
+  margin: 5px 50px 50px 20px;
+}
+
+.con{
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x)* 0.5);
+  padding-left: calc(var(--bs-gutter-x)* 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form
+{
+    position:relative;
+    background: url(./assets/sea.jpg) no-repeat center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.inside
+{
+  justify-content: 'center';
+  font-size: 25px;
+  margin : 100px 400px 100px 400px;
+}
+
+form{
+  justify-content: 'center';
+  margin : 10px 40px 10px 40px;
+}
+
+input[type=text] {
+  font-size: 20px;
+  width: 72%;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+h6
+{
+  text-align: center;
+  color: white;
+  margin :0;
+  padding : 5px;
+}
+
+.comp1
+{
+  background-color:bisque;
+  justify-content: 'center';
+  margin : 
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  overflow: hidden;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  padding: 8px;
+  color : #5d01fc;
+}
+
+i{
+  font-size: 25px;
+  padding : 10px;
+  color : rgb(96, 96, 251);
+}
+
+button {
+  background-color: rgb(96, 96, 251);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  margin : 2px ;
+  padding : 15px ;
+  font-size: 15px;
+}
+button:hover {
+  background-color: #5d01fc;
+  color: white;
+}
